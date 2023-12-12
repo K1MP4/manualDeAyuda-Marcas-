@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Whimsical's manual">
+    <meta name="keywords" content="IA, manual, Whimsical">
+    <meta name="language" content="ES">
+    <meta name="author" content="Teresa Chalo, Alberto Máquez, Alejandro Navarro, Diana Pascual">
+    <meta name="robots" content="index, follow">
+    <meta name="revised" content="Friday, Dicember 18th, 2023, 15:00pm">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge, chrome1">
+    <meta http-equiv="refresh" content="300; URL=index.html">
+    <title>Whimsical´s Manual </title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+        }
+        header > div{
+            width:0;
+            text-align: center;
+            
+        }
+        .menuWrapper{
+            padding: 0px 30px 0px 30px;
+            width:100%;
+            position: fixed;
+            z-index: 1000;
+            background-color: rgb(255, 255, 255);
+            top: -2px;
+        }
+        .menuLogo{
+            height: 40px;
+            width: 40px;
+            float: left;
+            padding: 10px 10px 10px 10px; 
+            cursor: pointer;       
+    }
+        .menuList{
+            position: inherit;
+            display: flex;
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+            flex-direction: row;   
+            padding:5px; 
+            margin: 0px;
+            height: max-content;
+            margin: 0px 5% 0px 5%;
+            width: 100%;
+        }
+        nav ul li{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            padding: 15px;
+            color: rgb(146, 146, 146); 
+            border-radius: 5px;
+            border: 30px;
+            width: max-content;
+            font-size:medium;
+        }
+        nav ul li a{
+            color:rgb(146, 146, 146);
+            text-decoration: none;
+        }
+        
+        nav ul li :hover{
+            text-decoration: none;
+            color: violet;
+            cursor: pointer;
+        }
+       /* FOOTER */
+        footer {
+            
+            background-color: gray;
+            width: 100%;
+            color: white;
+            font-size: small;
+            position: absolute;
+            top: 1000px;
+            
+        }
+
+        #columns {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        #columns article {
+            flex: 1;
+            margin: 0 10px;
+        }
+
+        #final {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="menuWrapper">
+        <a><img src="IMG/LogoWhimsical.png" class ="menuLogo"></a>
+        <nav class="menuList">
+            <ul>
+                <li><a>Inicio</a></li>
+                <li><a>Uso de plantillas</a></li>
+                <li><a>Trabajo con IA</a></li>
+                <li><a>Opciones de visionado</a></li>
+            </ul>
+            <ul>
+                <li><a>Trabajo por secciones</a></li>
+                <li><a>Comparación de URLs</a></li>
+                <li><a>Consejos y trucos</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    
+        <footer>
+            <section id="columns">
+                <article class="foot">
+                    <h3>LEGAL</h3>
+                    <p>Protección de datos</p>
+                    <p>Aviso Legal</p>
+                    <p>Terminos y Condiciones</p>
+                    <p>Política de privacidad</p>
+                </article>
+    
+                <article class="foot">
+                    <h3>NUESTRA FILOSOFIA</h3>
+                    <p>Quienes somos</p>
+                    <p>Misión</p>
+                    <p>Visión</p>
+                    <p>Valores</p>
+                </article>
+            </section>
+            <article id="final">
+                <p>WHIMSICAL ©</p>
+            </article>
+        </footer>
+</body>
+</html>
