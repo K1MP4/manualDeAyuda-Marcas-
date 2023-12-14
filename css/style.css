@@ -1,8 +1,12 @@
+/*General*/
 *{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
-
+a :hover{
+    cursor:pointer;
+}
+/*navegador*/
 header > div{
     width:0;
     text-align: center; 
@@ -15,7 +19,6 @@ header > div{
     z-index: 1000;
     background-color: rgb(255, 255, 255);
     top: -2px;
-    display: flex;
     align-items: center;
 }
 
@@ -26,6 +29,10 @@ header > div{
     padding: 10px 10px 10px 10px; 
     cursor: pointer;       
 }
+.menuList{
+    padding: 5px;
+    display: flex;
+}
 
 nav ul {
     list-style: none;
@@ -33,7 +40,7 @@ nav ul {
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    margin-left: auto;
+    margin-left:0%;
     height: max-content;
 }
 
@@ -69,10 +76,37 @@ footer {
     position: absolute;
     bottom: 0;
 }
-
+ .foot{
+    margin: 10px 0px 0px 0px;
+ }
+ .foot ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+ }
 #columns {
     display: flex;
     justify-content: space-around;
+}
+#columns .foot {
+    flex: 1;
+    
+}
+.logosFooter{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+#Footderecho{
+    float: right;
+    margin-right: 50px;
+    padding: 0px;
+    
+}
+#Footizquierdo{
+    float: left;
+    margin-left: 10px;
+    padding: 0px;
 }
 
 #final p {
